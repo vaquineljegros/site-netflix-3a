@@ -10,12 +10,31 @@ body{
     color: var(var--branco-principal);
 }
 
+*{
+    margin:0;
+    padding:0;
+}
+
 .principal{
     background-image: url("img/backroud.png");
     background-repeat: no-repeat;ack
     background-size:contain ;
+    grid-template-columns:50% 50%;
 }
 
 .container{
     height: 100vh;
+}
+
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: lem;
+    color: var(--branco-principal);
+    display:block;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
