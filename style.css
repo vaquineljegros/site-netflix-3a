@@ -83,9 +83,49 @@ botao_secundario {
     font-weight:700;
     font-size:48px;
     color: var(--branco-principal);
-    margin-bottom:0.1 em
+    margin-bottom:0.1 em;
   }
 
+  .descricao__texto{
+    color:var(--cinza-secudario);
+  }
+
+  .secundario__botao{
+    display:inline-block;
+    margin-top:1 em;
+  }
+  .container__descricao{
+    padding:2em;
+  }
+
+  .dispositivos__lista{
+    display:flex;
+    justify-content:center;
+    list-style-type;none;
+    margin: 5em 0;
+  }
+
+  .dispositivos__titulo{
+    font-size:48px;
+    color:var(--branco-principal);
+  }
+
+  .lista__item{
+    font-size:32px;
+    color:var(--branco-principal);
+  }
+
+  .rodape{
+    text-align:center;
+    margin: 5em 3em;
+  }
+
+  .rodape__lista{
+    display:flex
+    justify-content:center;
+    list-style-type:none;
+    margin-top:1 em;
+  }
 
 
 
